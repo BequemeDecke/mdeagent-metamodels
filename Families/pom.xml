@@ -5,16 +5,13 @@
                              http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>org.benchmarx</groupId>
-    <artifactId>familiestopersons-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <relativePath>../../pom.xml</relativePath>
-  </parent>
-
+  <groupId>de.hofuniversity</groupId>
   <artifactId>Families</artifactId>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <name>BenchmarX - Families Metamodel</name>
+
+  <!-- TODO: Set <parent></parent> with MavenProject -->
 
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -44,27 +41,7 @@
   </build>
 
   <dependencies>
-    <dependency>
-      <groupId>org.benchmarx</groupId>
-      <artifactId>Benchmarx</artifactId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse.emf</groupId>
-      <artifactId>org.eclipse.emf.ecore</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse.xtend</groupId>
-      <artifactId>org.eclipse.xtend.lib</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.eclipse.xtext</groupId>
-      <artifactId>org.eclipse.xtext.xbase.lib</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-    </dependency>
+    <!-- TODO: Set dependencies with Pom-Wrapper class -->
   </dependencies>
 
 </project>
